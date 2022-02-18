@@ -1,0 +1,19 @@
+n=int(input('Enter the Fibonacci Number:'))
+a=0
+b=1
+sum=0
+for n in range(0, n):
+    print(a, end = '  ')
+    sum=sum+a
+    c=a+b
+    a=b
+    b=c
+print("\nThe Sum of Fibonacci Numbers=",sum)
+O/p:
+Enter the Fibonacci number:5
+The Fibonacci series are: 0 1
+1
+2
+3
+5
+8
